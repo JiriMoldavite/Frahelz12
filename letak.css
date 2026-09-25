@@ -7,26 +7,22 @@ body { margin: 0; background: #e8e9e4; color: #254b3f; font-family: "Segoe UI", 
 :focus-visible { outline: 3px solid #945339; outline-offset: 4px; }
 .flyer { background: white; width: 210mm; height: 297mm; padding: 12mm 14mm 0; margin: 0 auto 30px; overflow: hidden; }
 .flyer-header { display: flex; justify-content: space-between; border-bottom: 1px solid #254b3f; padding-bottom: 4mm; font-size: 10pt; letter-spacing: 2px; font-weight: 600; }
-.eyebrow { margin: 6mm 0 3mm; font-size: 8pt; font-weight: 600; letter-spacing: 2px; color: #695b49; }
+.eyebrow { margin: 4mm 0 2mm; font-size: 8pt; font-weight: 600; letter-spacing: 2px; color: #695b49; }
 h1 { font: 40pt/1.08 Georgia, "Times New Roman", serif; letter-spacing: -1px; margin: 0 0 3mm; }
 h1 em { color: #945339; font-weight: normal; }
-.intro { margin: 0 0 5mm; font-size: 11pt; color: #424b44; }
-.flyer-photos { display: grid; grid-template-columns: 1.25fr 1fr; gap: 3mm; }
+.intro { margin: 0 0 4mm; font-size: 11pt; color: #424b44; }
+.flyer-photos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2mm 3mm; }
 figure { margin: 0; }
-figure img { display: block; width: 100%; height: 43mm; object-fit: cover; }
+figure img { display: block; width: 100%; height: 35mm; object-fit: cover; }
 figcaption { font-size: 7pt; margin-top: 1.5mm; color: #525a53; }
-.room-summary { display: flex; justify-content: space-between; gap: 2mm; margin: 4mm 0 3mm; padding-bottom: 3mm; border-bottom: 1px solid #bec7bc; font-size: 9pt; font-weight: 600; }
+.room-summary { display: flex; justify-content: space-between; gap: 2mm; margin: 3mm 0 3mm; padding-bottom: 3mm; border-bottom: 1px solid #bec7bc; font-size: 9pt; font-weight: 600; }
 .amenities { font-size: 11pt; font-weight: 600; margin: 0 0 4mm; line-height: 1.5; }
 .amenities span { font-size: 9pt; font-weight: 400; color: #424b44; }
 .equipment { font-size: 9pt; color: #424b44; margin: 0 0 3mm; }
-.flyer-price { display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; gap: 0 6mm; padding: 4mm 6mm; border: 1px solid #bec7bc; background: #f5f6f0; }
-.label { display: block; font-size: 7pt; letter-spacing: 1.4px; margin-bottom: 1mm; }
-.flyer-price strong { font: 34pt/1.1 Georgia, "Times New Roman", serif; white-space: nowrap; }
-.flyer-price strong small { font-size: 19pt; }
-.extras { border-left: 1px solid #bec7bc; padding-left: 6mm; }
-.extras b { display: block; font-size: 13pt; margin-bottom: 1.5mm; }
-.extras span { font-size: 9pt; color: #424b44; }
-.flyer-price p { grid-column: 1 / -1; border-top: 1px solid #bec7bc; margin: 3mm 0 0; padding-top: 2.5mm; font-size: 10pt; display: flex; justify-content: space-between; }
+.flyer-price { padding: 2.5mm 4mm; border: 1px solid #bec7bc; background: #f5f6f0; }
+.price-total { display: flex; align-items: baseline; justify-content: space-between; gap: 3mm; margin: 0; font-size: 10pt; }
+.price-total strong { font-size: 20pt; line-height: 1.1; }
+.price-breakdown { margin: 1mm 0 0; font-size: 9pt; line-height: 1.25; color: #424b44; }
 .flyer-contact { text-align: center; padding-block: 5mm 4mm; }
 .flyer-contact p { font-size: 12pt; margin: 0 0 1mm; }
 .flyer-contact a { color: #254b3f; font-size: 33pt; line-height: 1.2; font-weight: 700; letter-spacing: 1px; text-decoration: none; display: block; }
