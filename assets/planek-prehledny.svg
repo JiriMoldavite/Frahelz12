@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1020" viewBox="0 0 1400 1020" role="img" aria-labelledby="plan-title plan-desc" lang="cs" xml:lang="cs">
+  <title id="plan-title">Půdorys zařízeného bytu – 45,37 m²</title>
+  <desc id="plan-desc">Vstup vede do zádveří o ploše 3,38 m². Vlevo je koupelna s umyvadlem a sprchou, 3,36 m², a WC, 1,22 m². Ze zádveří se vstupuje do obývacího pokoje s kuchyní, 24,18 m², s jídelním stolem, sedačkou, televizí a krbovými kamny. Vpravo je ložnice, 13,23 m², s postelí, nočními stolky, komodou a skříní.</desc>
+  <defs>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #263735; }
+      .wall { fill: #f3f1eb; stroke: #2f3b39; stroke-width: 3; stroke-linejoin: round; }
+      .room-outline { fill: none; stroke: #2f3b39; stroke-width: 3; stroke-linejoin: round; }
+      .window { fill: #ffffff; stroke: #435752; stroke-width: 2; }
+      .glass { fill: none; stroke: #809c98; stroke-width: 2; }
+      .leaf { fill: none; stroke: #435752; stroke-width: 2.5; stroke-linecap: round; }
+      .swing { fill: none; stroke: #83948c; stroke-width: 1.7; }
+      .room-name { font-size: 25px; font-weight: 600; text-anchor: middle; }
+      .room-area { font-size: 30px; font-weight: 600; text-anchor: middle; }
+      .small-name { font-size: 23px; font-weight: 600; text-anchor: middle; }
+      .small-area { font-size: 24px; font-weight: 600; text-anchor: middle; }
+      .furnishing { stroke: #9caa9e; stroke-width: 1.4; stroke-linejoin: round; }
+      .cabinet { fill: #faf8f1; stroke: #aeb5a9; stroke-width: 1.4; }
+      .wood { fill: #d8bc94; stroke: #ad906f; stroke-width: 1.4; }
+      .detail { fill: none; stroke: #9d9b89; stroke-width: 1.3; stroke-linecap: round; }
+    </style>
+  </defs>
+  <rect width="1400" height="1020" fill="#fbfaf7"/>
+  <text x="92" y="78" font-size="42" font-weight="600">Prostor pro váš domov</text>
+  <text x="94" y="119" font-size="24" fill="#5c6e66">Zařízený byt · přízemí</text>
+  <rect x="1006" y="40" width="302" height="91" rx="22" fill="#e6ede3"/>
+  <text x="1157" y="81" font-size="35" font-weight="600" text-anchor="middle">45,37 m²</text>
+  <text x="1157" y="111" font-size="21" text-anchor="middle">celkem</text>
+
+  <g transform="translate(180 250) scale(1.1)">
+    <path class="wall" d="M-18-68H1000V573H-18Z"/>
+
+    <path fill="#e0e9db" d="M0 0H658V505H335V235H0Z"/>
+    <path fill="#eee9df" d="M668 0H932V505H668V436H696V398H668Z"/>
+    <path fill="#f4eee3" d="M195 245H325V505H195Z"/>
+    <path fill="#e0edf0" d="M0 245H185V505H105V367H0Z"/>
+    <path fill="#e0edf0" d="M0 377H95V505H0Z"/>
+
+    <path fill="#f3f1eb" d="M325 0H335V80H325Z"/>
+    <path fill="#f4eee3" d="M215 234H305V246H215ZM184 305H196V375H184Z"/>
+    <path fill="#e0edf0" d="M20 366H85V378H20Z"/>
+    <path fill="#eee9df" d="M657 296H669V380H657Z"/>
+    <path class="room-outline" d="M0 0H325V80H335V0H658V296H668V0H932V505H668V436H696V398H668V380H658V505H335V235H305V245H325V505H195V375H185V505H105V367H85V377H95V505H0V377H20V367H0V245H185V305H195V245H215V235H0V148H-18V88H0Z"/>
+    <path fill="#fbfaf7" d="M-20 90H0V146H-20Z"/>
+
+    <g aria-label="Okna">
+      <g class="window">
+        <path d="M103-68H213V0H103Z"/>
+        <path d="M412-68H522V0H412Z"/>
+        <path d="M745-68H855V0H745Z"/>
+        <path d="M20 505H76V573H20Z"/>
+        <path d="M118 505H174V573H118Z"/>
+        <path d="M415 505H525V573H415Z"/>
+        <path d="M745 505H855V573H745Z"/>
+      </g>
+      <path class="glass" d="M103-39H213M103-29H213M412-39H522M412-29H522M745-39H855M745-29H855M20 534H76M20 544H76M118 534H174M118 544H174M415 534H525M415 544H525M745 534H855M745 544H855"/>
+    </g>
+
+    <g aria-label="Vybavení bytu">
+      <g aria-label="Kuchyňské linky s varnou deskou, troubou, dřezem a chladničkou">
+        <rect x="4" y="4" width="317" height="56" rx="3" class="wood"/>
+        <path class="detail" d="M66 7V57M122 7V57M186 7V57M248 7V57"/>
+        <rect x="128" y="12" width="55" height="41" rx="3" fill="#414946"/>
+        <g fill="none" stroke="#cbd1c7" stroke-width="2">
+          <circle cx="141" cy="23" r="7"/>
+          <circle cx="168" cy="23" r="6"/>
+          <circle cx="141" cy="41" r="5"/>
+          <circle cx="168" cy="40" r="7"/>
+        </g>
+        <path d="M137 57H174" stroke="#646e68" stroke-width="3" stroke-linecap="round"/>
+        <rect x="4" y="178" width="171" height="53" rx="3" class="wood"/>
+        <rect x="5" y="179" width="53" height="51" rx="3" class="cabinet"/>
+        <path class="detail" d="M49 188V212M63 181V228"/>
+        <rect x="79" y="185" width="62" height="37" rx="6" fill="#fffefa" stroke="#aeb9b3" stroke-width="1.5"/>
+        <rect x="86" y="190" width="48" height="27" rx="7" fill="#e5eeeb"/>
+        <circle cx="110" cy="205" r="3" fill="#99aaa3"/>
+        <path d="M110 229V214Q110 209 115 209" fill="none" stroke="#7e9288" stroke-width="3" stroke-linecap="round"/>
+      </g>
+
+      <g aria-label="Jídelní stůl a tři viditelné židle u okna">
+        <g class="wood">
+          <rect x="379" y="46" width="30" height="38" rx="6"/>
+          <rect x="536" y="46" width="30" height="38" rx="6"/>
+          <rect x="454" y="110" width="38" height="30" rx="6"/>
+        </g>
+        <path class="detail" d="M385 49V81M560 49V81M457 134H489"/>
+        <rect x="405" y="26" width="134" height="79" rx="5" fill="#ede0c9" stroke="#bfa781" stroke-width="1.6"/>
+        <path d="M416 34H527M416 97H527" stroke="#d7c5a5" stroke-width="1.2"/>
+      </g>
+
+      <g aria-label="Tmavá sedačka, koberec a konferenční stolek">
+        <rect x="345" y="271" width="215" height="216" rx="9" fill="#cfcec1"/>
+        <rect x="351" y="277" width="203" height="204" rx="7" fill="none" stroke="#bfc1b3" stroke-width="1.2"/>
+        <rect x="342" y="254" width="82" height="227" rx="11" fill="#3f4d51" stroke="#344347" stroke-width="1.8"/>
+        <rect x="345" y="262" width="18" height="211" rx="7" fill="#506067"/>
+        <rect x="365" y="269" width="52" height="61" rx="6" fill="#56666c" stroke="#3f5056" stroke-width="1.2"/>
+        <rect x="365" y="332" width="52" height="65" rx="6" fill="#56666c" stroke="#3f5056" stroke-width="1.2"/>
+        <rect x="365" y="399" width="52" height="66" rx="6" fill="#56666c" stroke="#3f5056" stroke-width="1.2"/>
+        <rect x="346" y="255" width="75" height="15" rx="6" fill="#46585e"/>
+        <rect x="346" y="465" width="75" height="15" rx="6" fill="#46585e"/>
+        <rect x="369" y="277" width="31" height="32" rx="6" fill="#e9e9dc" transform="rotate(-12 385 293)"/>
+        <rect x="365" y="425" width="33" height="32" rx="6" fill="#f1efe2" transform="rotate(11 381 441)"/>
+        <rect x="454" y="329" width="63" height="113" rx="4" fill="#394446"/>
+        <rect x="458" y="332" width="57" height="106" rx="4" fill="#b29373" stroke="#8c755f" stroke-width="1.4"/>
+        <path d="M464 339V431" stroke="#c4aa8b" stroke-width="1.5"/>
+      </g>
+
+      <g aria-label="TV sestava, knihovna a kamna">
+        <rect x="614" y="15" width="39" height="73" rx="3" class="cabinet"/>
+        <path class="detail" d="M619 33H648M619 51H648M619 69H648"/>
+        <rect x="611" y="109" width="42" height="168" rx="4" class="cabinet"/>
+        <path class="detail" d="M615 164H649M615 221H649"/>
+        <path d="M622 130V255" stroke="#323e40" stroke-width="6" stroke-linecap="round"/>
+        <path d="M619 181H636V205H619" fill="none" stroke="#54615f" stroke-width="2"/>
+        <circle cx="628" cy="287" r="11" fill="#d7bc94" stroke="#b69775" stroke-width="1.4"/>
+        <path d="M580 483V448L611 418H647V493H580Z" fill="#ded8c7" stroke="#c0b9a7" stroke-width="1.4"/>
+        <rect x="603" y="438" width="39" height="47" rx="6" fill="#3d4848" stroke="#2e3c3a" stroke-width="2"/>
+        <rect x="608" y="447" width="28" height="24" rx="3" fill="#576663"/>
+        <path d="M615 464L620 453L626 462L630 455" fill="none" stroke="#d8ac72" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="622" cy="438" r="8" fill="#354240"/>
+      </g>
+
+      <g aria-label="Postel, dva noční stolky, koberec, komoda a skříně">
+        <rect x="705" y="35" width="189" height="345" rx="8" fill="#d7d5cc"/>
+        <rect x="711" y="41" width="177" height="333" rx="6" fill="none" stroke="#c6c6bc" stroke-width="1.2"/>
+        <rect x="713" y="18" width="164" height="207" rx="5" class="wood"/>
+        <rect x="717" y="23" width="156" height="194" rx="9" fill="#faf9f2" stroke="#c1c8ba" stroke-width="1.3"/>
+        <rect x="713" y="15" width="164" height="12" rx="4" fill="#ba9c73"/>
+        <rect x="728" y="35" width="60" height="36" rx="8" fill="#fffef9" stroke="#d5d9cc" stroke-width="1.2"/>
+        <rect x="802" y="35" width="60" height="36" rx="8" fill="#fffef9" stroke="#d5d9cc" stroke-width="1.2"/>
+        <path d="M718 88Q795 97 872 88V210Q795 218 718 210Z" fill="#e5e9df"/>
+        <path d="M722 98Q795 105 868 98M726 186H864M726 194H864" fill="none" stroke="#c7d1c0" stroke-width="1.6"/>
+        <rect x="675" y="24" width="33" height="38" rx="3" class="cabinet"/>
+        <rect x="882" y="24" width="33" height="38" rx="3" class="cabinet"/>
+        <circle cx="691" cy="42" r="8" fill="#eee1ba" stroke="#c4b890" stroke-width="1.2"/>
+        <circle cx="898" cy="42" r="8" fill="#eee1ba" stroke="#c4b890" stroke-width="1.2"/>
+        <rect x="887" y="237" width="41" height="89" rx="3" class="cabinet"/>
+        <path class="detail" d="M891 264H924M891 294H924M899 249H913M899 279H913M899 309H913"/>
+        <rect x="876" y="349" width="52" height="140" rx="3" class="cabinet"/>
+        <path class="detail" d="M880 419H924M885 407V413M885 425V431"/>
+        <rect x="671" y="449" width="39" height="51" rx="3" class="cabinet"/>
+        <path class="detail" d="M676 481H705"/>
+      </g>
+
+      <g aria-label="Umyvadlo se skříňkou, sprchový kout a WC">
+        <rect x="120" y="249" width="60" height="43" rx="4" class="cabinet"/>
+        <ellipse cx="150" cy="269" rx="25" ry="15" fill="#fffefa" stroke="#a8bcb9" stroke-width="1.3"/>
+        <ellipse cx="150" cy="270" rx="18" ry="10" fill="#e6efed"/>
+        <circle cx="150" cy="274" r="2.5" fill="#8ca39e"/>
+        <path d="M150 250V264" stroke="#90a79f" stroke-width="3" stroke-linecap="round"/>
+        <rect x="109" y="424" width="72" height="77" rx="4" fill="#fafdfa" stroke="#a5bcb7" stroke-width="1.8"/>
+        <rect x="114" y="429" width="62" height="67" rx="5" fill="#e5f1ee" stroke="#c0d4cc" stroke-width="1.2"/>
+        <path d="M110 424H179M158 430V442" stroke="#83a79f" stroke-width="2.5"/>
+        <circle cx="158" cy="444" r="5" fill="#c1d7cc" stroke="#8ca99e" stroke-width="1.2"/>
+        <circle cx="129" cy="480" r="3" fill="#8caaa0"/>
+        <path d="M115 439L128 432M115 450L143 433" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+        <rect x="28" y="483" width="39" height="17" rx="3" fill="#fffefa" stroke="#a6b7ae" stroke-width="1.4"/>
+        <path d="M31 484V465C31 443 64 443 64 465V484Z" fill="#fffefa" stroke="#a6b7ae" stroke-width="1.4"/>
+        <ellipse cx="47.5" cy="467" rx="11" ry="15" fill="#e3ece5" stroke="#c1d1c5" stroke-width="1.2"/>
+        <circle cx="47.5" cy="491" r="2.5" fill="#bacbbd"/>
+      </g>
+    </g>
+
+    <g aria-label="Dveře a směry otevírání">
+      <path fill="#f4eee3" d="M205 503H280V575H205Z"/>
+      <path class="leaf" d="M205 505V573M280 505V573M205 550H280M205 559H280"/>
+      <path class="leaf" d="M280 505V430"/>
+      <path class="swing" d="M205 505A75 75 0 0 1 280 430"/>
+
+      <path class="leaf" d="M305 245V335"/>
+      <path class="swing" d="M215 245A90 90 0 0 0 305 335"/>
+      <path class="leaf" d="M185 375H115"/>
+      <path class="swing" d="M185 305A70 70 0 0 0 115 375"/>
+      <path class="leaf" d="M20 367V302"/>
+      <path class="swing" d="M85 367A65 65 0 0 0 20 302"/>
+      <path class="leaf" d="M668 380H752"/>
+      <path class="swing" d="M668 296A84 84 0 0 1 752 380"/>
+      <path class="leaf" d="M0 148H60"/>
+      <path class="swing" d="M0 88A60 60 0 0 1 60 148"/>
+    </g>
+
+    <g aria-hidden="true">
+      <text class="room-name" x="469" y="171">Obývací pokoj</text>
+      <text class="room-name" x="469" y="202">+ kuchyň</text>
+      <text class="room-area" x="469" y="243">24,18 m²</text>
+
+      <text class="room-name" x="790" y="279">Ložnice</text>
+      <text class="room-area" x="790" y="322">13,23 m²</text>
+
+      <text class="small-name" x="260" y="377">Zádveří</text>
+      <text class="small-area" x="260" y="411">3,38 m²</text>
+
+      <text class="small-name" x="-85" y="267">Koupelna</text>
+      <text class="small-area" x="-85" y="297">3,36 m²</text>
+      <path d="M-22 283H50" fill="none" stroke="#92a6a0" stroke-width="1.5"/>
+      <circle cx="50" cy="283" r="3" fill="#92a6a0"/>
+
+      <text class="small-name" x="-85" y="423">WC</text>
+      <text class="small-area" x="-85" y="453">1,22 m²</text>
+      <path d="M-22 440H17" fill="none" stroke="#92a6a0" stroke-width="1.5"/>
+      <circle cx="17" cy="440" r="3" fill="#92a6a0"/>
+    </g>
+  </g>
+
+  <path d="M447 935V899M438 909L447 899L456 909" fill="none" stroke="#52694e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="469" y="924" font-size="24" font-weight="600">Vstup</text>
+</svg>
